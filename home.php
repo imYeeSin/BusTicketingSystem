@@ -16,12 +16,10 @@ session_start();
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
         <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<!--        <link rel="stylesheet" type="text/css" href="./slick/slick.css">
-        <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"> -->
+
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="animate.css">
-<!--        <link rel="stylesheet" href="style.css">-->
         
 <style>
     
@@ -104,33 +102,6 @@ session_start();
                 padding-bottom: 10px;" class="container-fluid text-center">
             <p>Bus Ticketing System - Admin Panel</p> 
         </footer>
-
-
-
-
-
-
-
-<!--        <script>
-            $(function () {
-                $(document).scroll(function () {
-                    var $nav = $(".navbar-fixed-top");
-                    $a = $(".parallax");
-                    $nav.toggleClass('scrolled', $(this).scrollTop() > $a.height());
-                });
-            });
-
-        </script>    
-
-
-        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>-->
-
-
-<!--        <script>
-          window.sr = ScrollReveal();
-          sr.reveal('.foo', {duration: 800});
-          sr.reveal('.foo1', {duration: 800, origin: 'top'});
-        </script>-->
 
     </body>
 </html>
