@@ -1,67 +1,73 @@
 
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-fixed-top gabanav" style="background-color: white;">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
-                    </button>
-
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav gabali">
-                        <li><a href="home.php">Home</a></li>
-                        <li><a href="busSchedule.php">Bus Scheduling</a></li>
-                        <li><a href="">Bus</a></li>
-                        <li><a href="">Ticket</a></li>
-                        <li><a href="">Reservation</a></li>
-                        <li><a href="">Administrator</a></li>
-                        <li><a href="">Report</a></li>
-                        <li><a href="">Driver</a></li>
-                        <li><a href="">Passenger</a></li>
-
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
-                    </ul>
-                </div> 
-
-            </div>   
-        </nav>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.php">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="busSchedule.php">Bus Schedule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Bus</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Ticket</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Reservation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Administrator.php">Administrator</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Report</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Driver</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Passenger</a>
+            </li>
+             <li class="nav-item" >
+                 <a class="nav-link" id ="navlogin"  href="">Login</a>
+             </li>
+        </ul>
+ 
+           
 
     </div>
 
-
+</nav>
 
 
 <style>
     #myNavbar{
         font-size: 17pt;
-        padding-top: 17px;
+        padding-top: 0px;
     }
-
-    #myNavbar li a {
+    
+    #myNavbar li a{
         color: black;
     }
-
-    #myNavbar li a:hover {
-        color: red;
-    }
-
-    #myNavbar ul li:not(:last-child)::after {
-        content: " | ";
+    
+    #navlogin{
         position: absolute;
-        top: 50%;
-        right: -5px;
-        transform: translateY(-50%);
-        color: gray;
+        display: inline-block;
+        right: 0%;
     }
-
-
+    
+    #myNavbar li a:hover {
+        background-color: purple;
+        color: white;
+    }
+ 
+   
 </style>
 
 
