@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect("localhost", "root", "", "vehicle_management");
+//$connection = mysqli_connect("localhost", "root", "", "vehicle_management");
 
 session_start();
 ?>
@@ -12,21 +12,17 @@ session_start();
         <meta charset="UTF-8">
         <title>Bus Ticketing System</title>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="animate.css">
+
         
 <style>
     
         .hero-text{
             font-size: 45pt;
             background-color: black; 
-            opacity: 0.6; 
+            opacity: 0.8; 
             font-size: 50px;
             text-align: center; 
             position: absolute;
@@ -63,7 +59,7 @@ session_start();
     </head> 
     
     <body data-spy="scroll" data-target=".navbar" data-offset="50" onload="myFunction()"> 
-
+           <?php include 'navbar.php'; ?>  
       
         <div class="parallax foo">
 
