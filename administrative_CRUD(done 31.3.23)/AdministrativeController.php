@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\Administrative;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\Rules\Password;
 
 class AdministrativeController extends Controller {
 
@@ -36,7 +36,7 @@ class AdministrativeController extends Controller {
                     'Email_Address' => 'required|email|unique:administrative',
                     'User_Name' => 'required|regex:/^\S*$/u|unique:administrative',
                     'Gender' => 'required',
-                    'Password' => 'required|min:8|regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\x])(?=.*[!$#%]).*$/',
+                    'Password' => ['required','string',Password::min(8)->mixedCase()->numbers()->symbols()->uncompromised()],
         ]);
 
         if ($validation->fails()) {
@@ -92,7 +92,7 @@ class AdministrativeController extends Controller {
                     'Contact_No' => 'required|max:12|unique:administrative',
                     'Email_Address' => 'required|email|unique:administrative',
                     'User_Name' => 'required|regex:/^\S*$/u|unique:administrative',
-                    'Password' => 'required|min:8|regex:/^.*(?=.{3,})(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[\d\x])(?=.*[!$#%]).*$/|confirmed',
+                    'Password' => ['required','string',Password::min(8)->mixedCase()->numbers()->symbols()->uncompromised()],
         ]);
     }
 
