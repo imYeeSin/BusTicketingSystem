@@ -20,7 +20,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('/HomePage/home', HomeController::class);
+Route::resource('/Home', HomeController::class);
 
 Route::resource('/Administrative', AdministrativeController::class);
 
