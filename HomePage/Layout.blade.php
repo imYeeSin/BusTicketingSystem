@@ -40,7 +40,7 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="{{url('/HomePage/home')}}">Home</a>
+                            <a class="nav-link" aria-current="page" href="{{url('/Home')}}">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="busSchedule.php">Bus Schedule</a>
