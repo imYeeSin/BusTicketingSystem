@@ -1,0 +1,21 @@
+[2023-04-09 05:42:43] local.INFO: Bus schedule added {"departureTime":"13:42","arrivalTime":"15:42","pickUpPoint":"KL","dropOffPoint":"Chaah","stopPoint":"Kluang","Bus_ID":"7019","Driver_ID":"9001","price":"45.20"} 
+[2023-04-09 05:44:58] local.INFO: Bus schedule updated {"_method":"PATCH","id":"6003","departureTime":"12:28:00","arrivalTime":"15:27:00","pickUpPoint":"Paloh","dropOffPoint":"Chaah","stopPoint":"Kluang","Bus_ID":"7017","Driver_ID":"9000","price":"15.00"} 
+[2023-04-09 05:47:30] local.INFO: Bus schedule deleted {"id":"6007"} 
+[2023-04-09 05:54:44] local.INFO: Bus schedule viewed {"id":"6006"} 
+[2023-04-09 07:52:11] local.INFO: Bus schedule viewed {"id":"6003"} 
+[2023-04-10 04:45:40] local.INFO: Bus schedule viewed {"id":"6003"} 
+[2023-04-10 04:45:58] local.INFO: Bus schedule viewed {"id":"6003"} 
+[2023-04-10 12:26:53] local.INFO: Bus schedule added {"departureTime":"22:26","arrivalTime":"13:26","pickUpPoint":"rytyytu","dropOffPoint":"dewre","stopPoint":"qwqrew","Bus_ID":"7017","Driver_ID":"9000","price":"32.67"} 
+[2023-04-10 12:27:47] local.INFO: Bus schedule deleted {"id":"6009"} 
+[2023-04-10 12:30:04] local.INFO: Bus schedule added {"departureTime":"22:32","arrivalTime":"14:35","pickUpPoint":"Paloh","dropOffPoint":"kj","stopPoint":"fdgf","Bus_ID":"7017","Driver_ID":"9000","price":"76.34"} 
+[2023-04-10 12:33:30] local.INFO: Bus schedule viewed {"id":"6003"} 
+[2023-04-10 12:33:44] local.INFO: Bus schedule updated {"_method":"PATCH","id":"6003","departureTime":"12:28:00","arrivalTime":"16:27","pickUpPoint":"Paloh","dropOffPoint":"Chaah","stopPoint":"Kluang","Bus_ID":"7017","Driver_ID":"9000","price":"15"} 
+[2023-04-10 12:33:53] local.INFO: Bus schedule deleted {"id":"6010"} 
+[2023-04-10 12:34:14] local.INFO: Bus schedule added {"departureTime":"23:33","arrivalTime":"16:34","pickUpPoint":"Segamat","dropOffPoint":"KL","stopPoint":"Yong Peng","Bus_ID":"7017","Driver_ID":"9000","price":"34.90"} 
+[2023-04-10 13:34:00] local.INFO: Bus schedule added {"departureTime":"23:35","arrivalTime":"15:39","pickUpPoint":"Paloh","dropOffPoint":"Batu Pahat","stopPoint":"Yong Peng","Bus_ID":"7000","Driver_ID":"9000","price":"54.90"} 
+[2023-04-10 13:34:03] local.INFO: Bus schedule viewed {"id":"6000"} 
+[2023-04-10 13:35:24] local.INFO: Bus schedule viewed {"id":"6000"} 
+[2023-04-10 13:35:39] local.INFO: Bus schedule updated {"_method":"PATCH","id":"6000","departureTime":"23:35:00","arrivalTime":"15:39:00","pickUpPoint":"Paloh","dropOffPoint":"Batu Pahat","stopPoint":"Yong Peng","Bus_ID":"7000","Driver_ID":"9000","price":"15.30"} 
+[2023-04-10 13:35:41] local.INFO: Bus schedule viewed {"id":"6000"} 
+[2023-04-10 13:36:10] local.INFO: Bus schedule added {"departureTime":"23:37","arrivalTime":"13:39","pickUpPoint":"KL","dropOffPoint":"JB","stopPoint":"Kluang","Bus_ID":"7000","Driver_ID":"9000","price":"34.10"} 
+[2023-04-10 13:36:17] local.INFO: Bus schedule deleted {"id":"6000"} 
