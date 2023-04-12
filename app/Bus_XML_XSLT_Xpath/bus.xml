@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buses SYSTEM 'bus.dtd'>
+<buses>
+    <bus>
+        <plateNumber>ABC1234</plateNumber>
+        <model>Mercedes</model>
+        <purchaseDate>2023-01-07</purchaseDate>
+        <roadTaxExpirationDate>2024-12-31</roadTaxExpirationDate>
+        <busType kind="SingleDeckBus"></busType>
+        <seat>27</seat>
+    </bus>
+    <bus>
+        <plateNumber>XYZ9876</plateNumber>
+        <model>Toyota</model>
+        <purchaseDate>2023-11-07</purchaseDate>
+        <roadTaxExpirationDate>2024-10-31</roadTaxExpirationDate>
+        <busType kind="DoubleDeckBus"></busType>
+        <seat>45</seat>
+    </bus>
+    <bus>
+        <plateNumber>VIP7777</plateNumber>
+        <model>Mercedes</model>
+        <purchaseDate>2022-11-17</purchaseDate>
+        <roadTaxExpirationDate>2023-12-31</roadTaxExpirationDate>
+        <busType kind="DoubleDeckBus"></busType>
+        <seat>45</seat>
+    </bus>
+</buses>

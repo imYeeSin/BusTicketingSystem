@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT buses (bus)+>
+<!ELEMENT bus (plateNumber, model, purchaseDate, roadTaxExpirationDate, busType, seat)>
+<!ELEMENT plateNumber (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT purchaseDate (#PCDATA)>
+<!ELEMENT roadTaxExpirationDate (#PCDATA)>
+<!ELEMENT busType EMPTY>
+<!ATTLIST busType kind (DoubleDeckBus | SingleDeckBus ) "DoubleDeckBus">
+<!ELEMENT seat (#PCDATA)>
+<!ATTLIST DoubleDeckBus seat CDATA "45">
+<!ATTLIST SingleDeckBus seat CDATA "27">
